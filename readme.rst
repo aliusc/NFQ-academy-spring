@@ -1,15 +1,15 @@
 #####################
-Uşduoties informacija
+UÅ¾duoties informacija
 #####################
 
-Duomenø bazëje saugome informacijà apie knygas:
+DuomenÅ³ bazÄ—je saugome informacijÄ… apie knygas:
 Pavadinimas;
 Leidimo metai;
 Autorius (-iai);
-Şanras. 
+Å½anras. 
 
 
 Panaudodami PHP ir MySQL/MariaDB sukurkite du puslapius:
-Pirmas puslapis – knygø sàrağas;
-Antras puslapis – knygos informacinis puslapis, á kurá patenkame spustelëjæ ant knygos pavadinimo knygø sàrağe.
-Papildomi balai skiriami uş puslapiuojamà knygø sàrağà su paieğkos laukeliu ir rikiuojamais stulpeliais. 
+Pirmas puslapis â€“ knygÅ³ sÄ…raÅ¡as;
+Antras puslapis â€“ knygos informacinis puslapis, Ä¯ kurÄ¯ patenkame spustelÄ—jÄ™ ant knygos pavadinimo knygÅ³ sÄ…raÅ¡e.
+Papildomi balai skiriami uÅ¾ puslapiuojamÄ… knygÅ³ sÄ…raÅ¡Ä… su paieÅ¡kos laukeliu ir rikiuojamais stulpeliais. 
