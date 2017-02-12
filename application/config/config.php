@@ -522,4 +522,4 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-define('PAGE_WWW', 'http://dev/public_html/NFQ_spring/public_html');
+define('PAGE_WWW', '/public_html');
