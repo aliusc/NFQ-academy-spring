@@ -73,12 +73,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+// mysql://b3f68d3b9b03cb:5a40dd21@eu-cdbr-west-01.cleardb.com/heroku_ed79b25024759ba?reconnect=true
+
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'db_nfq_spring',
+	'hostname' => 'eu-cdbr-west-01.cleardb.com',
+	'username' => 'b3f68d3b9b03cb',
+	'password' => '5a40dd21',
+	'database' => 'heroku_ed79b25024759ba',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

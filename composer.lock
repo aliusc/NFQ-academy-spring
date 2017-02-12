@@ -4,39 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "425582499c09ce5b5eebb2abb6dc2111",
-    "content-hash": "163eb4764cfceda4201e2d993dd1e79d",
+    "hash": "fcad494250fac740b105de52ea9685b1",
+    "content-hash": "7cd2b1f036025d51e766eb52acbc31f7",
     "packages": [],
     "packages-dev": [
         {
-            "name": "mikey179/vfsStream",
-            "version": "v1.1.0",
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v119",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "26ebb69005d467d45f75797c1594f60818ba3fce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
-                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/26ebb69005d467d45f75797c1594f60818ba3fce",
+                "reference": "26ebb69005d467d45f75797c1594f60818ba3fce",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=5.3.0"
-            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
             "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "org\\bovigo\\vfs": "src/main/php"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD"
+                "MIT"
             ],
-            "homepage": "http://vfs.bovigo.org/",
-            "time": "2012-08-25 12:49:29"
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2017-01-21 00:39:13"
         }
     ],
     "aliases": [],
@@ -45,7 +59,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.2.4"
+        "ext-gettext": "*"
     },
     "platform-dev": []
 }
